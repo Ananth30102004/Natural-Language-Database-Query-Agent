@@ -1,0 +1,17 @@
+
+# Ignore everything
+*
+
+# Keep Git configuration
+!.gitignore
+
+# Exclude environment variables
+.env
+.env.*
+
+# Allow required project files
+!mcp_server.py
+!messages.py
+!api.py
+!erp_db.db
+!README.md
